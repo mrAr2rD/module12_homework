@@ -1,5 +1,7 @@
 // Задание 12-3
 function functionObject() {
-    let object = Object.create(null)
+    return Object.create(null)
 }
-functionObject();
+let object = functionObject();
+
+// Задание выполнено верно, единственное замечание - чтобы с полученным объектом можно было что-то делать, функция должна вернуть его (нужно использовать return), выше исправила.
